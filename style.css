@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins','sans-serif';
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eec8b6;
+}
+
+.bgCrud{
+    display: flex;
+    height: 70vh;
+    min-width: 50vw;
+    margin-top: 7%;
+    flex-direction: column;
+    align-items: center;
+    background: #bdb5f0;
+    border-radius: 6px;
+    box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.354);
+}
+
+.bgCrud .inputs{
+    position: relative;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.317);
+    margin: 0px 0px 20px 0px;
+    background: rgb(33, 105, 237);
+}
+
+.bgCrud .inputs .data{
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.317);
+    border: none;
+}
+
+.bgCrud .inputs .data::placeholder{
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.bgCrud .inputs .btns{
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bgCrud .inputs .btns input,
+.bgCrud .inputs .btns button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(250, 238, 223);
+    color: rgb(95, 109, 215);
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.303);
+}
+
+.bgCrud .inputs .btns input:active,
+.bgCrud .inputs .btns button:active{
+    background-color: rgb(215, 196, 171);
+}
+
+table{
+    padding:0px 5px;
+}
+
+tr{
+    background: #cac6e7
+}
+
+th{  
+    padding:0px 5px;
+    width: 150px;
+    background: rgb(234, 212, 212);
+    color: black;
+}
+
+tr:hover{
+    background:rgb(33, 105, 237);
+    color: white;
+}
+
+td{
+    padding:0px 5px;
+    width: 10px;
+    display: table-cell;
+}
+
+.bgCrud .table{
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+#del{
+   
+    padding-left:4px ;
+    padding-right: 4px;
+    user-select: none;    
+}
+#del:active{
+    background-color: rgb(0, 136, 255);
+    color: white;
+
+}
+#inv{
+    display: none;
+}
+.center{
+    text-align: center;
+}
+
+.icons{
+    height: 20px;
+}
